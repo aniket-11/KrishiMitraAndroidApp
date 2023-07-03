@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aniket.krishimitraapp.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weathersFragment"
+        android:name="com.aniket.krishimitraapp.fragments.WeathersFragment"
+        android:label="fragment_weathers"
+        tools:layout="@layout/fragment_weathers" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.aniket.krishimitraapp.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_crop_detailsFragment"
+            app:destination="@id/crop_detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.aniket.krishimitraapp.fragments.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" >
+        <action
+            android:id="@+id/action_notificationFragment_to_notificationDetailsFragment"
+            app:destination="@id/notificationDetailsFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/signUp"
+        android:name="com.aniket.krishimitraapp.SignUp"
+        android:label="activity_sign_up"
+        tools:layout="@layout/activity_sign_up" />
+    <activity
+        android:id="@+id/signIn"
+        android:name="com.aniket.krishimitraapp.SignIn"
+        android:label="activity_sign_in"
+        tools:layout="@layout/activity_sign_in" />
+    <action
+        android:id="@+id/action_global_homeFragment"
+        app:destination="@id/homeFragment" />
+    <fragment
+        android:id="@+id/otherFragment"
+        android:name="com.aniket.krishimitraapp.fragments.OtherFragment"
+        android:label="fragment_other"
+        tools:layout="@layout/fragment_other" />
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="com.aniket.krishimitraapp.fragments.NewPostFragment"
+        android:label="fragment_new_post"
+        tools:layout="@layout/fragment_new_post" />
+    <fragment
+        android:id="@+id/crop_detailsFragment"
+        android:name="com.aniket.krishimitraapp.fragments.crop_detailsFragment"
+        android:label="crop_detailsFragment" />
+    <fragment
+        android:id="@+id/notificationDetailsFragment"
+        android:name="com.aniket.krishimitraapp.fragments.NotificationDetailsFragment"
+        android:label="fragment_notification_details"
+        tools:layout="@layout/fragment_notification_details" />
+</navigation>

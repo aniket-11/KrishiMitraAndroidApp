@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1025881216424",
+    "project_id": "krishi-mitra-eb352",
+    "storage_bucket": "krishi-mitra-eb352.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025881216424:android:4de226706e034b72d9399d",
+        "android_client_info": {
+          "package_name": "com.aniket.krishimitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025881216424-g3k9b9ir1b3n42ks7dujokh6jn9lumh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniket.krishimitra",
+            "certificate_hash": "be63b5db4286b2622d0f34de62791c16f1938bf9"
+          }
+        },
+        {
+          "client_id": "1025881216424-dab6oslnu4c29idgsniq75kh668ktuk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMsp7XE3-xdhbWAAvKaPXakgQO6xfwGok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025881216424-dab6oslnu4c29idgsniq75kh668ktuk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

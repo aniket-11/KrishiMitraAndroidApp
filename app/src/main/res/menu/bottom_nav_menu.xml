@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/weathersFragment"
+        android:title="Weather"
+        android:icon="@drawable/ic_weather"
+        />
+
+    <item
+        android:id="@+id/newPostFragment"
+        android:title="Add Post"
+        android:icon="@drawable/ic_add"
+        />
+
+    <item
+        android:id="@+id/searchFragment"
+        android:title="Crops"
+        android:icon="@drawable/ic_search"
+        />
+
+    <item
+        android:id="@+id/otherFragment"
+        android:title="Others"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        />
+
+
+</menu>
